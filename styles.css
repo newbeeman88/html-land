@@ -2,11 +2,61 @@ html {
     background-color: rgb(43, 226, 137);
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: white;
+    background-color: rgb(255, 0, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 100px;
 }
 
 
 body {
-    color: yellow
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Class */
+.red-color {
+    color: red;
+}
+
+/* ID */
+#main {
+    color: purple;
+}
+
+/* Attribute */
+p[draggable] {
+    color: gray;
+}
+
+p[draggable="false"] {
+    color: rgb(198, 255, 192);
+}
+
+li {
+    color: red;
+    font-family:monospace;
+}
+
+div {
+    border: 300px black;
+    height: 600px;
+    width: 600px;
+}
+
+#first {
+    background-color: pink;
+    padding: 20px;
+    border: 10px solid rgb(0, 128, 255);
+}
+
+#second {
+    background-color: aqua;
+    border: solid goldenrod;
+    border-width: 20px 10px;
+    margin-left: 260px;
+    margin-top: 30px;
+
 }
